@@ -22,10 +22,13 @@ module.exports = {
         end: '$$'
       },
       process(block) {
+        let config = this.book.config.get('pluginsConfig.katex-plus', {})
+        let macros = config['macros'] || {}
         let output = ''
         try {
           output = katex.renderToString(block.body, {
-            displayMode: true
+            displayMode: true,
+            macros: macros
           })
         } catch (e) {
           console.error(e)
@@ -41,10 +44,13 @@ module.exports = {
         end: '$'
       },
       process(block) {
+        let config = this.book.config.get('pluginsConfig.katex-plus', {})
+        let macros = config['macros'] || {}
         let output = ''
         try {
           output = katex.renderToString(block.body, {
-            displayMode: false
+            displayMode: false,
+            macros: macros
           })
         } catch (e) {
           console.error(e)
