@@ -1,22 +1,22 @@
 {
-  "name": "gitbook-plugin-katex-plus",
+  "name": "gitbook-plugin-katex-ng",
   "description": "Math typesetting using KaTex into GitBook",
   "main": "index.js",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "engines": {
     "gitbook": ">=3.0.0"
   },
-  "homepage": "https://github.com/akuma/gitbook-plugin-katex-plus",
+  "homepage": "https://github.com/vowstar/gitbook-plugin-katex-ng",
   "repository": {
     "type": "git",
-    "url": "https://github.com/akuma/gitbook-plugin-katex-plus.git"
+    "url": "https://github.com/vowstar/gitbook-plugin-katex-ng.git"
   },
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/akuma/gitbook-plugin-katex-plus/issues"
+    "url": "https://github.com/vowstar/gitbook-plugin-katex-ng/issues"
   },
   "dependencies": {
-    "katex": "^0.9.0-alpha2"
+    "katex": "^0.12.0"
   },
   "keywords": [
     "math",

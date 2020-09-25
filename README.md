@@ -1,12 +1,12 @@
-# gitbook-plugin-katex-plus
+# gitbook-plugin-katex-ng
 
 > Math typesetting using KaTex
 
 Use it for your book, by adding to your book.json:
 
-```
+```json
 {
-  "plugins": ["katex-plus"]
+  "plugins": ["katex-ng"]
 }
 ```
 
@@ -14,7 +14,7 @@ then run `gitbook install`.
 
 ## Usage
 
-```
+```markdown
 Inline math: $\int_{-\infty}^\infty g(x) dx$
 
 Block math:
