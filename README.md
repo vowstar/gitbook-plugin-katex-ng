@@ -35,3 +35,7 @@ Block math:
 ## Comparison with [gitbook-plugin-katex](https://github.com/GitbookIO/plugin-katex)
 
 - Use single `$` for inline math.
+
+## Comparison with [gitbook-plugin-katex-plus](https://github.com/akuma/gitbook-plugin-katex-plus)
+
+- Support unicode text in math.
