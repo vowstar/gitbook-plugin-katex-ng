@@ -50,6 +50,7 @@ module.exports = {
         try {
           output = katex.renderToString(block.body, {
             displayMode: false,
+            unicodeTextInMathMode: true,
             macros: macros
           })
         } catch (e) {
